@@ -1,0 +1,11 @@
+six metrics:{
+Interesting: The degree of interest in the dialogue. If the dialogue carries a negative sentiment, the score is 0.
+Informative: The amount of information contained in the dialogue.
+Natural: Whether the dialogue is natural and human-like.
+Engaging: Whether the dialogue is engaging, meaning if what is said by both roles makes them want to continue the dialogue.
+On-topic: Whether the dialogue stays on the topic described in the dialogue topic.
+On-persona: Whether the dialogue matches the personas of role1 and role2.
+}
+
+
+The above are six metrics for evaluating dialogues. Next, I will provide four dialogues, including both single-step and multi-step dialogues. Single-step dialogues consist of just an  exchange of single message replies back and forth. In contrast, multi-step dialogues resemble social media messages, simulating the style of human daily chit-chat through multiple continuous message replies. The main difference between dialogue 3 and dialogue 4 is that in dialogue 4, the message replies are further divided into more message replies. Please score the four dialogues on the above six metrics, with scores ranging from 0 to 100(accurate to one point), and only return the scores.
