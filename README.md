@@ -12,7 +12,7 @@ Contains the code for generating Stephanie data:
 
 ## `further_split` Folder
 Contains the code for further processing using the further_split method:
-- In data_process, `row_cleaned.csv` is obtained by cleaning `data_formated.csv` (generated from the `data_generate` folder) by removing blank lines, redundant characters, etc., resulting in the final Stephanie data.
+- In data_process, `row_cleaned.csv` is obtained by processing `data_formated.csv` (generated from the `data_generate` folder) by removing blank lines, redundant characters, etc., resulting in the final Stephanie data.
 
 ---
 
